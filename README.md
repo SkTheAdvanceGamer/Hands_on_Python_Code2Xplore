@@ -25,7 +25,7 @@ Each challenge focuses on applying Python concepts to practical problem statemen
 
 | Day  | File Name | Description |
 |------|----------|------------|
-| Day 1 | `FirstDay.py`[Link]([https://github.com](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/FirstDay.py)) | Introduction to basic Python syntax |
+| Day 1 | `FirstDay.py`[Link](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/FirstDay.py) | Introduction to basic Python syntax |
 | Day 2 | `day_2_smartid_credential_validator.py` | Input validation using conditional logic |
 | Day 3 | `Day_3_Student_performance_Analyzer.py` | Student marks analysis using loops and lists |
 | Day 4 | `Day_4_Smart_List_Filter_&_Rebuilder.py` | Filtering and rebuilding lists based on data types and conditions |
