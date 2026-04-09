@@ -25,13 +25,13 @@ Each challenge focuses on applying Python concepts to practical problem statemen
 
 | Day  | File Name | Description |
 |------|----------|------------|
-| Day 1 | `FirstDay.py`[Link](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/FirstDay.py) | Introduction to basic Python syntax |
+| Day 1 | [`FirstDay.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/FirstDay.py) | Introduction to basic Python syntax |
 | Day 2 | [`day_2_smartid_credential_validator.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/day_2_smartid_credential_validator.py) | Input validation using conditional logic |
 | Day 3 | [`Day_3_Student_performance_Analyzer.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_3_Student_performance_Analyzer.py) | Student marks analysis using loops and lists |
-| Day 4 | `Day_4_Smart_List_Filter_&_Rebuilder.py` | Filtering and rebuilding lists based on data types and conditions |
-| Day 5 | `day_5.py` | Smart Transport Load Balancing System |
-| Day 6 | `Day_6_Smart_Playlist_Intelligence_System.py` | Playlist validation and analysis system |
-| Day 7 | `Smart_Campus_Energy_Analyzer_day_7.py` | Campus energy consumption analysis with categorization and insights |
+| Day 4 | [`Day_4_Smart_List_Filter_&_Rebuilder.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_4_Smart_List_Filter_%26_Rebuilder.py) | Filtering and rebuilding lists based on data types and conditions |
+| Day 5 | [`day_5.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Smart_Transport_Load_Balancing_System_Day5.py) | Smart Transport Load Balancing System |
+| Day 6 | [`Day_6_Smart_Playlist_Intelligence_System.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/smart_playlist_intelligence_system_day6.py) | Playlist validation and analysis system |
+| Day 7 | [`Smart_Campus_Energy_Analyzer_day_7.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Smart_Campus_Energy_Analyzer_day_7.py) | Campus energy consumption analysis with categorization and insights |
 
 ---
 
