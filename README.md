@@ -1,23 +1,12 @@
 # 🐍 Hands_on_Python_Code2Xplore
-
 A structured collection of daily Python challenges completed as part of the Hands-on Python learning program.
 
 ---
-
 ## 📖 About This Repository
 
 This repository documents my daily progress in solving Python challenges designed to strengthen core programming skills.
 
 Each challenge focuses on applying Python concepts to practical problem statements. The aim is to build consistency, improve logical thinking, and gain confidence in writing clean and structured Python code.
-
----
-
-## 🗓️ Daily Challenge Structure
-
-- ✔ One problem solved each day  
-- ✔ Each solution stored as a separate `.py` file  
-- ✔ File names clearly represent the challenge day and topic  
-- ✔ Gradual increase in difficulty and logic-building  
 
 ---
 
@@ -105,7 +94,6 @@ git clone https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore.git
 cd Hands_on_Python_Code2Xplore
 python filename.py
 python Smart_Campus_Energy_Analyzer_day_7.py
-
 
 ---
 
