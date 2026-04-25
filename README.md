@@ -3,7 +3,7 @@
   <p><strong>A structured collection of daily Python challenges to strengthen core programming skills.</strong></p>
 
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge"/>
-  <img src="https://img.shields.io/badge/Progress-Day%208-success?style=for-the-badge" alt="Progress Badge"/>
+  <img src="https://img.shields.io/badge/Progress-Day%209-success?style=for-the-badge" alt="Progress Badge"/>
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status Badge"/>
 </div>
 
@@ -27,14 +27,31 @@ Each challenge focuses on applying Python concepts to practical problem statemen
 | **Day 5** | [`day_5.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Smart_Transport_Load_Balancing_System_Day5.py) | Smart Transport Load Balancing System |
 | **Day 6** | [`Day_6_Smart_Playlist_Intelligence_System.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/smart_playlist_intelligence_system_day6.py) | Playlist validation and analysis system |
 | **Day 7** | [`Smart_Campus_Energy_Analyzer_day_7.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Smart_Campus_Energy_Analyzer_day_7.py) | Campus energy consumption analysis with categorization and insights |
-| **Day 8** | [`Day_8_Autonomous_Smart_City_Data_Intelligence_System.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_8_Autonomous_Smart_City_Data_Intelligence_System.py) | 🌟 **NEW** Autonomous Smart City Data Intelligence System using Pandas & Numpy |
+| **Day 8** | [`Day_8_Autonomous_Smart_City_Data_Intelligence_System.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_8_Autonomous_Smart_City_Data_Intelligence_System.py) | Autonomous Smart City Data Intelligence System using Pandas & Numpy |
+| **Day 9** | [`Day_9_Multi-Level_Data_Replication_&amp;_Integrity_Analyzer.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_9_Multi-Level_Data_Replication_&amp;_Integrity_Analyzer.py) | 🌟 **NEW** Multi-Level Data Replication & Integrity Analyzer |
 
 ---
 
 ## 🌟 Daily Highlights
 
 <details>
-<summary><b>🏙️ Day 8: Autonomous Smart City Data Intelligence System</b> (Click to Expand)</summary>
+<summary><b>🛡️ Day 9: Multi-Level Data Replication & Integrity Analyzer</b> (Click to Expand)</summary>
+<br>
+
+The **Multi-Level Data Replication & Integrity Analyzer** demonstrates the critical differences between assignments, shallow copies, and deep copies in Python.
+
+**Key Features:**
+- 📝 **Data Generation:** Creates nested data structures representing user profiles and file usage.
+- 🪞 **Replication Strategies:** Implements direct assignment, shallow copy (`list()`), and custom deep copy mechanisms.
+- 🧬 **Mutation Tracking:** Modifies replicated data to observe effects on the original dataset based on the replication method used.
+- 🔍 **Integrity Checking:** Uses set operations to meticulously compare original snapshots against shallow and deep copies.
+- 🚨 **Leakage Detection:** Automatically detects data leakage and deep level mutations when inner references are shared.
+- 📊 **Detailed Reporting:** Generates an integrity report tuple summarizing safe data, leakages, and overlaps.
+
+</details>
+
+<details>
+<summary><b>🏙️ Day 8: Autonomous Smart City Data Intelligence System</b></summary>
 <br>
 
 The **Autonomous Smart City Data Intelligence System** evaluates multiple city zones by gathering data on Traffic, Air Quality (AQI), and Energy usage. 
@@ -99,7 +116,7 @@ Ensure Python is installed on your system. Libraries like `pandas` and `numpy` m
 pip install pandas numpy
 git clone https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore.git
 cd Hands_on_Python_Code2Xplore
-python Day_8_Autonomous_Smart_City_Data_Intelligence_System.py
+python "Day_9_Multi-Level_Data_Replication_&amp;_Integrity_Analyzer.py"
 ```
 <p align="center">
   <i>Keep pushing the boundaries of code! 🚀</i>
