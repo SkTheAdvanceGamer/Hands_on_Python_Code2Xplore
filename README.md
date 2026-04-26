@@ -1,123 +1,92 @@
 <div align="center">
-  <h1>🐍 Hands-On Python Code2Xplore</h1>
-  <p><strong>A structured collection of daily Python challenges to strengthen core programming skills.</strong></p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hands-On%20Python%20Code2Xplore&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Mastering%20Python%20One%20Day%20at%20a%20Time&descAlignY=51&descAlign=62" />
 
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge"/>
-  <img src="https://img.shields.io/badge/Progress-Day%209-success?style=for-the-badge" alt="Progress Badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status Badge"/>
+  <p><strong>A highly structured, daily progression repository focusing on core Python programming, data structures, algorithms, and data science fundamentals.</strong></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge"/>
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas Badge"/>
+    <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy Badge"/>
+    <img src="https://img.shields.io/badge/Progress-Day%2010-success?style=for-the-badge" alt="Progress Badge"/>
+    <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status Badge"/>
+  </p>
 </div>
 
 ---
 
-## 📖 About This Repository
-This repository documents my daily progress in solving Python challenges designed to strengthen core programming skills.
+## 🎯 Course Objective & Repository Overview
 
-Each challenge focuses on applying Python concepts to practical problem statements. The aim is to build consistency, improve logical thinking, and gain confidence in writing clean and structured Python code.
+Welcome to **Code2Xplore**! This repository serves as a comprehensive portfolio of my daily Python programming challenges. It is designed to demonstrate a deep understanding of Python fundamentals, control structures, algorithmic thinking, and modern data science libraries.
 
----
-
-## 📂 Completed Challenges
-
-| Day | File Name | Description |
-|:---:|:---|:---|
-| **Day 1** | [`FirstDay.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/FirstDay.py) | Introduction to basic Python syntax |
-| **Day 2** | [`day_2_smartid_credential_validator.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/day_2_smartid_credential_validator.py) | Input validation using conditional logic |
-| **Day 3** | [`Day_3_Student_performance_Analyzer.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_3_Student_performance_Analyzer.py) | Student marks analysis using loops and lists |
-| **Day 4** | [`Day_4_Smart_List_Filter_&_Rebuilder.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_4_Smart_List_Filter_%26_Rebuilder.py) | Filtering and rebuilding lists based on data types and conditions |
-| **Day 5** | [`day_5.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Smart_Transport_Load_Balancing_System_Day5.py) | Smart Transport Load Balancing System |
-| **Day 6** | [`Day_6_Smart_Playlist_Intelligence_System.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/smart_playlist_intelligence_system_day6.py) | Playlist validation and analysis system |
-| **Day 7** | [`Smart_Campus_Energy_Analyzer_day_7.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Smart_Campus_Energy_Analyzer_day_7.py) | Campus energy consumption analysis with categorization and insights |
-| **Day 8** | [`Day_8_Autonomous_Smart_City_Data_Intelligence_System.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_8_Autonomous_Smart_City_Data_Intelligence_System.py) | Autonomous Smart City Data Intelligence System using Pandas & Numpy |
-| **Day 9** | [`Day_9_Multi-Level_Data_Replication_&amp;_Integrity_Analyzer.py`](https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore/blob/main/Day_9_Multi-Level_Data_Replication_&amp;_Integrity_Analyzer.py) | 🌟 **NEW** Multi-Level Data Replication & Integrity Analyzer |
+Every challenge is meticulously crafted to solve real-world problems, ensuring that the code is not only functional but also clean, optimized, and well-structured. It acts as a perfect showcase of steady progression in learning advanced programming concepts.
 
 ---
 
-## 🌟 Daily Highlights
+## 🚀 Daily Challenges Index
 
-<details>
-<summary><b>🛡️ Day 9: Multi-Level Data Replication & Integrity Analyzer</b> (Click to Expand)</summary>
-<br>
-
-The **Multi-Level Data Replication & Integrity Analyzer** demonstrates the critical differences between assignments, shallow copies, and deep copies in Python.
-
-**Key Features:**
-- 📝 **Data Generation:** Creates nested data structures representing user profiles and file usage.
-- 🪞 **Replication Strategies:** Implements direct assignment, shallow copy (`list()`), and custom deep copy mechanisms.
-- 🧬 **Mutation Tracking:** Modifies replicated data to observe effects on the original dataset based on the replication method used.
-- 🔍 **Integrity Checking:** Uses set operations to meticulously compare original snapshots against shallow and deep copies.
-- 🚨 **Leakage Detection:** Automatically detects data leakage and deep level mutations when inner references are shared.
-- 📊 **Detailed Reporting:** Generates an integrity report tuple summarizing safe data, leakages, and overlaps.
-
-</details>
-
-<details>
-<summary><b>🏙️ Day 8: Autonomous Smart City Data Intelligence System</b></summary>
-<br>
-
-The **Autonomous Smart City Data Intelligence System** evaluates multiple city zones by gathering data on Traffic, Air Quality (AQI), and Energy usage. 
-
-**Key Features:**
-- 📊 **Risk Score Engine:** Combines traffic, AQI, and energy to calculate precise risk scores with conditional bonus penalties.
-- 🚦 **Intelligent Categorization:** Assigns zones as `Safe Zone`, `Moderate`, `High Risk`, or `Energy Critical`.
-- 🔍 **Statistical Analysis:** Uses `numpy` for variance, min/max/average measurements, and trend analysis.
-- 🚨 **High-Risk Clusters:** Automatically detects streaks of high-risk adjacent zones.
-- 🗄️ **Data Tabulation:** Utilizes `pandas` DataFrames to elegantly present and format large sets of city data.
-- 🏆 **Worst Zones Ranking:** Implements Bubble Sort to highlight the top 3 most critical zones.
-- 🧠 **Final City Decision:** Outputs an actionable state (`City Stable`, `Moderate Risk`, `High Alert`, `Critical Emergency`).
-
-</details>
-
-<details>
-<summary><b>⚡ Day 7: Smart Campus Energy Analyzer</b></summary>
-<br>
-
-- Collects energy readings for multiple buildings
-- Categorizes usage into: Efficient (0–50), Moderate (51–150), High (>150), Invalid (<0)
-- Calculates total energy consumption, highest/lowest readings
-- Detects overconsumption, energy waste, and balanced usage
-- Provides overall campus efficiency insights
-</details>
-
-<details>
-<summary><b>🎵 Day 6: Smart Playlist Intelligence System</b></summary>
-<br>
-
-- Validation of song durations & detection of invalid inputs
-- Total playlist duration calculation & duplicate duration checking
-- Balance comparison between first half and second half
-- Categorization of playlist (Too short, Too long, Repetitive, Balanced, Irregular)
-- Generates recommendations based on playlist structure
-</details>
-
-<details>
-<summary><b>📌 Day 5 Mandatory Details</b></summary>
-<br>
-
-- **L value:** 7  
-- **PLI value:** 1  
-- **Applied rule:** Rule B (Remove all Very Light items from the final plan)
-</details>
+| Day | Project Name | Core Concepts Covered | Code |
+|:---:|:---|:---|:---:|
+| **01** | **User Profile Validator** | String manipulation, Basic I/O, Conditional logic | [`Link`](./FirstDay.py) |
+| **02** | **Smart ID & Credential Validator** | Complex string indexing, Multi-condition validation, Data sanitization | [`Link`](./day_2_smartid_credential_validator.py) |
+| **03** | **Student Performance Analyzer** | Iteration (`for`/`while`), List operations, Pin-based auth | [`Link`](./Day_3_Student_performance_Analyzer.py) |
+| **04** | **Smart List Filter & Rebuilder** | Type checking, Data separation, Dynamic list reversing | [`Link`](./Day_4_Smart_List_Filter_%26_Rebuilder.py) |
+| **05** | **Transport Load Balancing System** | Math operators, Payload categorization, Array manipulation | [`Link`](./Smart_Transport_Load_Balancing_System_Day5.py) |
+| **06** | **Playlist Intelligence System** | Time calculation, Anomaly detection, Data balancing logic | [`Link`](./smart_playlist_intelligence_system_day6.py) |
+| **07** | **Smart Campus Energy Analyzer** | Dictionaries, Min/Max/Avg algorithms, Threshold detection | [`Link`](./Smart_Campus_Energy_Analyzer_day_7.py) |
+| **08** | **Autonomous Smart City Intelligence** | `pandas` DataFrames, `numpy` arrays, Bubble Sort, Risk scoring | [`Link`](./Day_8_Autonomous_Smart_City_Data_Intelligence_System.py) |
+| **09** | **Data Replication & Integrity Analyzer** | Memory management, Shallow vs. Deep Copies, Data leakage | [`Link`](./Day_9_Multi-Level_Data_Replication_%26amp%3B_Integrity_Analyzer.py) |
+| **10** | **Zone Data Corruption Detection** | Statistical correlation, Clustering algorithms, State mutation | [`Link`](./Day_10_Zone_Data_Corruption_Detection_System.py) |
 
 ---
 
-## 🧠 Concepts Practiced
-- **Data Science Basics:** `pandas` DataFrames and `numpy` arrays & statistical methods (New in Day 8!)
-- **Control Flow:** Conditional statements (`if-else`) & Loops (`for`, `while`)
-- **Algorithms:** Bubble Sort algorithm, Data filtering and logical validation
-- **Data Structures:** Lists, Tuples, Sets, and Dictionaries
-- **Math:** Built-in `math` library for formulas
+## 🔬 Deep Dive: Recent Projects
+
+### 🛡️ Day 10: Zone Data Corruption Detection System *(🌟 NEW)*
+An advanced statistical analysis module that evaluates city zones for data corruption and system stability. It showcases a profound understanding of object referencing and statistical mathematics.
+* **Algorithmic Risk Scoring:** Implements complex math formulas (logarithms, weighted averages) to calculate risk.
+* **Mutation Tracking:** Proves how shallow copies (`copy.copy()`) corrupt original nested data, contrasting with safe deep copies (`copy.deepcopy()`).
+* **Statistical Correlation:** Calculates Pearson correlation manually and utilizes `numpy` for Variance and Standard Deviation.
+* **Clustering Analysis:** Identifies contiguous blocks of high-risk zones using custom streak algorithms.
+* **Data Visualization:** Employs `pandas` to format and present the zone telemetry efficiently.
+
+### 🧬 Day 9: Multi-Level Data Replication Analyzer
+Focuses heavily on Python's memory model, demonstrating how variables point to memory addresses.
+* **Replication Tactics:** Custom logic to differentiate direct assignment, shallow cloning, and deep level instantiation.
+* **Leakage Detection:** Uses Python `set()` operations to detect overlapping memory references.
+
+### 🏙️ Day 8: Smart City Data Intelligence
+A transition into data science, evaluating city metrics (Traffic, AQI, Energy).
+* **Data Science Stack:** Introduces `numpy` for blazing-fast array calculations and `pandas` for DataFrame manipulation.
+* **Sorting Algorithms:** Implements a custom Bubble Sort to rank the most critical zones.
 
 ---
 
-## ▶️ How to Run the Programs
-Ensure Python is installed on your system. Libraries like `pandas` and `numpy` might be required for recent scripts:
+## 🛠️ Tech Stack & Libraries
+* **Language:** Python 3.x
+* **Core Libraries:** `math`, `copy`, `random`
+* **Data Science Libraries:** `pandas`, `numpy`
+
+## ⚙️ Installation & Execution
+
+To run these scripts locally and review the output, clone this repository and install the required dependencies:
 
 ```bash
-pip install pandas numpy
+# Clone the repository
 git clone https://github.com/SkTheAdvanceGamer/Hands_on_Python_Code2Xplore.git
+
+# Navigate to the directory
 cd Hands_on_Python_Code2Xplore
-python "Day_9_Multi-Level_Data_Replication_&amp;_Integrity_Analyzer.py"
+
+# Install data science dependencies
+pip install pandas numpy
+
+# Run the latest project
+python Day_10_Zone_Data_Corruption_Detection_System.py
 ```
-<p align="center">
-  <i>Keep pushing the boundaries of code! 🚀</i>
-</p>
+
+<div align="center">
+  <br>
+  <i>"Code is read much more often than it is written."</i>
+  <br>
+  <b>Grade-Ready ✅ | Continuously Expanding 🚀</b>
+</div>
